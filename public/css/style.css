@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-html{
+html {
     width: 100%;
     height: 100%;
 }
@@ -17,22 +17,39 @@ nav {
     position: relative;
     justify-content: center;
     height: 50px;
+    line-height: 50px;
     background-color: #EB122F;
 }
 
+.navList {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.navHome {
+    margin-left: 15px;
+}
+
+.navContact {
+    margin-right: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
 
 .pageinscription {
     display: flex;
     justify-content: space-around;
 }
 
-
 /* *****************
     MEDIQUERIE
 ***************** */
 
 @media screen and (max-width: 350px) {
-
     nav {
         width: 100%;
     }
@@ -58,16 +75,16 @@ nav {
     .formulaire {
         margin-bottom: 70px;
     }
-
-    }
-
-
-
-
+}
 
 /**************************
         DIAPORAMA
  ************************ */
+
+h1 {
+    text-align: center;
+    margin-top: 35px;
+}
 
 .diaporama {
     width: 500px;
@@ -108,12 +125,9 @@ nav {
     }
 }
 
-
-
 /**************** 
     FORMULAIRE
 *****************/
-
 
 .formulaire {
     max-width: 450px;
@@ -148,7 +162,7 @@ input {
     text-align: center;
 }
 
-.inscription{
+.inscription {
     display: block;
 }
 
